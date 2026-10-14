@@ -1,1 +1,159 @@
+# Boutique de marketing de réseau - Gloire programmeur - 2026
+print("=== BOUTIQUE DE MARKETING DE RÉSEAU ===")
+print("Bienvenue chez Gloire programmeur")
 
+print("\n--- Menu Reseau ---")
+print("1 = AIRTEL")
+print("2 = ORANGE")
+choix = int(input("Choisissez 1 ou 2 : "))
+if choix == 1:
+    print("Vous avez choisi AIRTEL")
+elif choix == 2:
+    print("Vous avez choisi ORANGE")
+else:
+    print("Choix invalide")
+
+print("\n--- Menu unites ---")
+print("1=20u - 500 FC")
+print("2=40u - 1000 FC")
+print("3=60u - 1500 FC")
+print("4=100u - 2500 FC")
+
+choix_unites = int(input("Choisissez 1 2 3 4 5 : "))
+
+if choix_unites == 1:
+    print("1: 20u")
+elif choix_unites == 2:
+    print("2: 40u")
+elif choix_unites == 3:
+    print("3: 60u")
+elif choix_unites == 4:
+    print("4: 100u")
+else:
+    print("Choix invalide")
+
+print("---Menu_retrait_franc---")
+print("1: 100Fc = 9%")
+print("2: 30001Fc = 6.15%")
+print("3: 60001Fc = 3.3%")
+print("4: 150001Fc = 2%")
+print("5: 1200001Fc = 1%")
+
+print("\n--- Menu Retrait Dollars ---")
+print("1: 0.1$ a 10$ = 9%")
+print("2: 10.01$ a 20$ = 6.15%")
+print("3: 20.01$ a 50$ = 3.3$")
+print("4: 50.01$ a 400$ = 2%")
+print("5: 400.01$ et plus = 1%")
+choix_retrait = int(input("Choisissez 1 2 3 4 5 : "))
+if choix_retrait == 1:
+    print("Frais = 9%")
+elif choix_retrait == 2:
+    print("Frais = 6.15%")
+elif choix_retrait == 3:
+    print("Frais = 3.3$")
+elif choix_retrait == 4:
+    print("Frais = 2%")
+elif choix_retrait == 5:
+    print("Frais = 1%")
+else:
+    print("Choix invalide")
+
+print("\n--- Virunga Energie Dollar ---")
+print("1: 1$ = 4Kw")
+print("2: 2$ = 8Kw")
+print("3: 3$ = 12Kw")
+print("4: 4$ = 16Kw")
+print("5: 5$ = 20Kw")
+choix_virunga = int(input("Choisissez 1 2 3 4 5 : "))
+if choix_virunga == 1:
+    print("1$ = 4Kw")
+elif choix_virunga == 2:
+    print("2$ = 8Kw")
+elif choix_virunga == 3:
+    print("3$ = 12Kw")
+elif choix_virunga == 4:
+    print("4$ = 16Kw")
+elif choix_virunga == 5:
+    print("5$ = 20Kw")
+else:
+    print("Choix invalide")
+
+print("---Menu_virunga_énergie_franc---")
+print("1: 3000Fc = 4Kw ")
+print("2: 6000Fc = 8Kw ")
+print("3: 10000Fc = 16Kw ")
+print("4: 12500Fc = 20Kw ")
+
+choix_virunga_energie_franc = int(input("Choisissez 1 2 3 4 : "))
+
+if choix_virunga_energie_franc == 1:
+    print("Vous avez choisi 3000Fc = 4Kw")
+elif choix_virunga_energie_franc == 2:
+    print("Vous avez choisi 6000Fc = 8Kw")
+elif choix_virunga_energie_franc == 3:
+    print("Vous avez choisi 10000Fc = 16Kw")
+elif choix_virunga_energie_franc == 4:
+    print("Vous avez choisi 12500Fc = 20Kw")
+else:
+    print("Choix invalide")
+  
+print("---Menu_mega_sms_minutes---")
+print("1: 100mg = 500Fc ")
+print("2: 200mg = 1000Fc ")
+print("3: 300mg = 1500Fc ")
+print("4: 600mg = 1500Fc ")
+print("5: 1gb = 1500Fc ")
+print("6: 500sms_5jrs = 1500Fc ")
+print("7: 2gb = 2500Fc ")
+print("8: 2.5gb = 2500Fc ")
+print("9: 16min = 2500Fc ") 
+print("10: 3gb = 3000Fc ")
+print("11: 5gb = 5000Fc ")
+print("12: 18gb = 25000Fc ")
+print("13: 36gb = 25000Fc ")
+
+choix_mega_sms_minutes = int(input("Choisissez 1 2 3 4 5 6 7 8 9 10 11 12 13 : "))
+
+if choix_mega_sms_minutes == 1:
+     print("vous avez choisi 100mg = 500Fc")
+elif choix_mega_sms_minutes == 2:
+    print("vous avez choisi 200mg = 1000Fc")
+elif choix_mega_sms_minutes == 3:
+    print("vous avez choisi 300mg = 1500Fc")
+elif choix_mega_sms_minutes == 4:
+    print("vous avez choisi 600mg = 1500Fc")
+elif choix_mega_sms_minutes == 5:
+    print("vous avez choisi 1gb = 1500Fc")
+elif choix_mega_sms_minutes == 6:
+    print("vous avez choisi 500sms_5jrs = 1500Fc")
+elif choix_mega_sms_minutes == 7:
+    print("vous avez choisi 2gb = 2500Fc")
+elif choix_mega_sms_minutes == 8:
+    print("vous avez choisi 2.5gb = 2500Fc")
+elif choix_mega_sms_minutes == 9:
+    print("vous avez choisi 16min = 2500Fc")
+elif choix_mega_sms_minutes == 10:
+    print("vous avez choisi 3gb = 3000Fc")
+elif choix_mega_sms_minutes == 11:
+    print("vous avez choisi 5gb = 5000Fc")
+elif choix_mega_sms_minutes == 12:
+    print("vous avez choisi 18gb = 25000Fc")
+elif choix_mega_sms_minutes == 13:
+    print("vous avez choisi 36gb = 25000Fc")
+else:
+    print("Choix invalide")
+
+print("---Menu_carte_sim---")
+print("1: orange = 500Fc")
+print("2: airtel = 500Fc")
+  
+choix_carte_sim = int(input("Choisissez 1 2 "))
+ 
+if choix_carte_sim == 1:
+    print("vous avez choisi ORANGE = 500Fc")
+elif choix_carte_sim == 2:
+    print("vous avez choisi AIRTEL = 500Fc")
+else : 
+
+print("\nMerci ! Boutique de Gloire")
